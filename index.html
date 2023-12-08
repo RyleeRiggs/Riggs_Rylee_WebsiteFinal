@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design 1</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://use.typekit.net/gfw5qxm.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="menu"  style="display: none;">
+        <button id="close-menu">X</button>
+        <a href="https://www.kasamachicago.com/menus">Menu</a>
+        <a href="https://order.toasttab.com/online/kasama-1001-north-winchester-avenue">Order</a>
+        <a href="https://www.kasamachicago.com">About</a>
+        <a href="https://www.kasamachicago.com/general">Contact</a>
+    </div>
+    <header class="grid-container header" > 
+        <nav class="nav"> 
+            <a href="https://www.kasamachicago.com/menus">Menu</a>
+            <a href="https://order.toasttab.com/online/kasama-1001-north-winchester-avenue">Order</a>
+            <a href="https://www.kasamachicago.com">About</a>
+            <a href="https://www.kasamachicago.com/general">Contact</a>
+            <button id="header" class="mobile-menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </nav>  
+    </header>
+    <main>
+        <section>
+            <div class="hero">
+                <img src="images/website header.png" class="hero">
+            </div>
+        </section>
+        <section>
+            <div >
+                <p class="text">Kasama is a bakery and modern Filipino restaurant from chefs Genie Kwon and Timothy Flores located in the East Ukrainian Village neighborhood of Chicago. We look forward to welcoming you! </p>
+            </div>
+        </section>
+        <section class="menu section">
+            <div class="grid-container-2 columns max-width ">
+                 <div>
+                    <img src="images/dessert-01.png" width="310">
+                    <img src="images/dessert-02.png" width="310">
+                    <img src="images/dessert-03.png" width="310">
+                    <img src="images/dessert-04.png" width="310">
+                </div>
+                <div>
+                    <h1 class="pastry-head">New Pastries!</h1>
+                    <p class="menu-text">We've added some more delicious pastries to our menu including our Boston Créme Brioche, Apple Hand Pie, Cardamom Kouign Amann, and Classic Cinnamon Buns</p>
+                    <a class="button" href="https://www.kasamachicago.com/menus">Full Menu</a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="grid-container-2 columns max-width">
+                <div>
+                    <h1 class="mention-head">Honorable Mentions</h1>
+                    <p class="mention-text">We have had the honor of receiving both a Michelin star and the James Beard Foundation Award. Click Below to see how we earned these accomplishments!</p>
+                    <a class="button" href="https://www.kasamachicago.com/new-index">Read More</a>
+                </div>
+                <div>
+                    <img src="images/Michelin star.png" class="awards">
+                    <img src="images/James Beard.png" class="awards">
+                </div>
+            </div>
+        </section>
+        <section class="section">
+                <h1 class="mention-head">What's Near Us?</h1>
+            <div class="grid-container-3 center section">
+                <img src="images/chicago places-05.png" class="places images-test">
+                <img src="images/chicago places-07.png" class="places images-test">
+                <img src="images/chicago places-06.png" class="places images-test">
+            </div>
+            <div>
+                <a class="explore-button explore-test" href="https://www.choosechicago.com/articles/tours-and-attractions/the-bean-chicago/">Explore Chicago</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer grid-container-4 section">
+        <div>
+            <img src="images/Kasama Logos-02.png" class="logo">
+        </div>
+       <div>
+        <h1 class="mention-head"> Our Socials</h1>
+        <a class="button" href="https://www.instagram.com/kasamachicago/">Instagram</a>
+        <a class="button" href="https://www.facebook.com/kasamachicago">Facebook</a>
+       </div>
+    </footer>
+    <script src="javascript/javascript.js"></script>
+    <h6>November 3rd, 2023. DDN-300: Web Design I. Rylee Riggs</h6>
+</body>
 </html>
